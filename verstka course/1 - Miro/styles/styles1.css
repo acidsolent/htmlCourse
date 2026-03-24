@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-bottom: 140px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  list-style: none;
+  gap: 34px;
+}
+
+nav {
+  max-width: 1200px;
+  height: 91px;
+  padding: 30px 50px;
+  margin-bottom: 60px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 60px 0 19px 0;
+  color: #050038;
+}
+
+header {
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
+header a {
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #050038;
+  text-decoration: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+footer {
+  background: #050038;
+  padding: 47px 40px;
+}
+
+footer > div {
+  display: flex;
+  gap: 20px;
+  color: #ffffff;
+  max-width: 1200px;
+  padding: 0 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+li::marker {
+  content: none;
+}
+
+h1,
+h2 {
+  font-size: 48px;
+  color: #050038;
+  font-weight: 400;
+  line-height: 56px;
+  margin-top: 60px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column wrap;
+  max-width: 1200px;
+  max-height: 800px;
+  gap: 65px;
+}
+
+#herobutton {
+  background-color: #4262ff;
+  transition:
+    background-color 1s 1s,
+    border-radius 2s 1s;
+  color: white;
+  border: 1px solid #4262ff;
+  width: 440px;
+  height: 51px;
+  border-radius: 32px;
+}
+
+#herobutton:hover {
+  background-color: rgb(4, 4, 80);
+  border-radius: 50%;
+}
+
+#herobutton:active {
+  background-color: rebeccapurple;
+}
+
+#together {
+  display: flex;
+  flex-direction: column wrap;
+  gap: 116px;
+}
+
+#around {
+  display: flex;
+  flex-direction: column wrap;
+  gap: 115px;
+}
+
+.servAround {
+  order: -1;
+}
+
+.link:hover {
+  color: red;
+}
+
+.head1 {
+  font-family: roboto;
+  letter-spacing: 1px;
+}
+
+.fohead1 {
+  font-family: Roboto;
+  letter-spacing: 0%;
+  color: #050038;
+  max-width: 424px;
+  max-height: 48px;
+  margin: 0 0 55px 0;
+}
+
+.head2 {
+  font-family: Roboto;
+  letter-spacing: 1px;
+}
+
+.fohead2 {
+  font-family: Roboto;
+  letter-spacing: 0%;
+  color: #05003899;
+  width: 424px;
+  margin: 0 0 40px 0;
+}
+
+.head3 {
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1%;
+}
+
+.fohead3 {
+  font-family: Roboto;
+  letter-spacing: 0%;
+  color: #05003899;
+}
+
+.heroForm {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.heroLogos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroForm + p {
+  margin: 8px 0 52px 0;
+}
+
+.heroForm input {
+  border-radius: 32px;
+  border: 1px solid #9b99af;
+  height: 48px;
+  width: 440px;
+  padding: 5px 10px;
+}
+
+.heroForm input:focus {
+  background-color: aliceblue;
+}
+
+.sectionlist {
+  list-style: none;
+}
+
+.sectionlist li::marker {
+  content: url('../images/Vector.svg');
+}
+
+.head2 {
+  width: 454px;
+  height: 168px;
+}
+
+.link {
+  color: #4262ff text-decoration overline;
+}
+
+.heroLogos {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}

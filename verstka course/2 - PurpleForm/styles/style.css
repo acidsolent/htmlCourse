@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  color: #AFB2BF;
+}
+
+body {
+  margin: 0;
+  background-color: #15161f;
+}
+
+h1 {
+  color: #FAFAFA;
+  background-color: #1E1F29;
+  font-size: 36px;
+  font-weight: 400px;
+  font-family: Fira Sans, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 48px 133px 32px 133px;
+}
+
+form {
+  padding: 48px;
+  background-color: #1E1F29;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  position: absolute;
+  left: 48px;
+  top: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #AFB2BF;
+}
+
+input, textarea, select {
+  border-radius: 10px;
+  border: none;
+  background-color: #2E2D3D;
+  color: #FAFAFA;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 120%;
+  padding: 27px 48px 12px;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: #4a4863;
+  font-size: 16px;
+}
+
+button {
+  background-color: #6C38CC;
+  color: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: Fira Sans;
+  line-height: 120%;
+  text-align: center;
+}
+
+#textarea {
+  font-family: Fira Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FAFAFA;
+}
+
+.field {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.labemail {
+  font-family: Fira Sans;
+}
+
+.field img {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+}
